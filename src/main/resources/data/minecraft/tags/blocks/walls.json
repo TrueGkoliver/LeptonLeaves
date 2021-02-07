@@ -1,6 +1,36 @@
 {
   "replace": "false",
   "values": [
-    "leptonleaves:oak_leaves_wall"
+    "leptonleaves:oak_leaves_wall",
+    "leptonleaves:birch_leaves_wall",
+    "leptonleaves:acacia_leaves_wall",
+    "leptonleaves:dark_oak_leaves_wall",
+    "leptonleaves:jungle_leaves_wall",
+    "leptonleaves:spruce_leaves_wall",
+    "leptonleaves:red_maple_leaves_wall",
+    "leptonleaves:orange_maple_leaves_wall",
+    "leptonleaves:red_maple_leaves_wall",
+    "leptonleaves:maple_leaves_wall",
+    "leptonleaves:pink_wisteria_leaves_wall",
+    "leptonleaves:blue_wisteria_leaves_wall",
+    "leptonleaves:purple_wisteria_leaves_wall",
+    "leptonleaves:white_wisteria_leaves_wall",
+    "leptonleaves:willow_leaves_wall",
+    "leptonleaves:cherry_leaves_wall",
+    "leptonleaves:blue_blossom_leaves_wall",
+    "leptonleaves:lavender_blossom_leaves_wall",
+    "leptonleaves:orange_blossom_leaves_wall",
+    "leptonleaves:pink_blossom_leaves_wall",
+    "leptonleaves:yellow_blossom_leaves_wall",
+    "leptonleaves:red_blossom_leaves_wall",
+    "leptonleaves:river_leaves_wall",
+    "leptonleaves:rosewood_leaves_wall",
+    "leptonleaves:morado_leaves_wall",
+    "leptonleaves:flowering_morado_leaves_wall",
+    "leptonleaves:yucca_leaves_wall",
+    "leptonleaves:kousa_leaves_wall",
+    "leptonleaves:aspen_leaves_wall",
+    "leptonleaves:grimwood_leaves_wall",
+    "leptonleaves:twisted_leaves_wall"
   ]
 }
