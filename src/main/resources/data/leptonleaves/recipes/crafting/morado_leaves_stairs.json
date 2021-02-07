@@ -1,0 +1,19 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atmospheric:morado_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:morado_leaves_stairs",
+    "count": 4
+  }
+}

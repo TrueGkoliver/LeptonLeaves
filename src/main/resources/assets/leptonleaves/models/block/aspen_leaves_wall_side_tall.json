@@ -1,0 +1,7 @@
+
+{
+  "parent": "leptonleaves:block/template_wall_side_tall",
+  "textures": {
+    "wall": "atmospheric:block/aspen_leaves"
+  }
+}

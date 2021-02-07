@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "atmospheric:block/aspen_leaves",
+    "top": "atmospheric:block/aspen_leaves",
+    "side": "atmospheric:block/aspen_leaves"
+  }
+}
+
+

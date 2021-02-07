@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/stairs",
+    "textures": {
+        "bottom": "autumnity:block/red_maple_leaves",
+        "top": "autumnity:block/red_maple_leaves",
+        "side": "autumnity:block/red_maple_leaves"
+    }
+}

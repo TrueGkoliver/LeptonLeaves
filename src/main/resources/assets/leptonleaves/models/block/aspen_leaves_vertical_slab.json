@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/vertical_slab",
+    "textures": {
+        "bottom": "atmospheric:block/aspen_leaves",
+        "top": "atmospheric:block/aspen_leaves",
+        "side": "atmospheric:block/aspen_leaves"
+    }
+}

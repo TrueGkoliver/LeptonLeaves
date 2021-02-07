@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "atmospheric:block/rosewood_leaves",
+    "top": "atmospheric:block/rosewood_leaves",
+    "side": "atmospheric:block/rosewood_leaves"
+  }
+}
+
+

@@ -1,0 +1,10 @@
+
+{
+  "parent": "leptonleaves:block/slab",
+  "textures": {
+    "bottom": "autumnity:block/orange_maple_leaves",
+    "top": "autumnity:block/orange_maple_leaves",
+    "side": "autumnity:block/orange_maple_leaves"
+  }
+}
+

@@ -1,0 +1,14 @@
+
+{
+  "variants": {
+    "type=bottom": {
+      "model": "leptonleaves:block/kousa_leaves_slab"
+    },
+    "type=double": {
+      "model": "atmospheric:block/kousa_leaves"
+    },
+    "type=top": {
+      "model": "leptonleaves:block/kousa_leaves_slab_top"
+    }
+  }
+}

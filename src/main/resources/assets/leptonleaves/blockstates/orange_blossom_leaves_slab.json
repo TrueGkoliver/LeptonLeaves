@@ -1,0 +1,14 @@
+
+{
+  "variants": {
+    "type=bottom": {
+      "model": "leptonleaves:block/orange_blossom_leaves_slab"
+    },
+    "type=double": {
+      "model": "quark:block/orange_blossom_leaves"
+    },
+    "type=top": {
+      "model": "leptonleaves:block/orange_blossom_leaves_slab_top"
+    }
+  }
+}

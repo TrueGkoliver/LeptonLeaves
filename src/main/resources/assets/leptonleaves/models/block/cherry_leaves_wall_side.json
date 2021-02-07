@@ -1,0 +1,7 @@
+
+{
+    "parent": "leptonleaves:block/template_wall_side",
+    "textures": {
+        "wall": "environmental:block/cherry_leaves"
+    }
+}

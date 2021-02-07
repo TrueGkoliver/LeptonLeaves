@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "quark:block/yellow_blossom_leaves",
+    "top": "quark:block/yellow_blossom_leaves",
+    "side": "quark:block/yellow_blossom_leaves"
+  }
+}
+
+

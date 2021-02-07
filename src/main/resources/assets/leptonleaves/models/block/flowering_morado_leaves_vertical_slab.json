@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/vertical_slab",
+    "textures": {
+        "bottom": "atmospheric:block/flowering_morado_leaves",
+        "top": "atmospheric:block/flowering_morado_leaves",
+        "side": "atmospheric:block/flowering_morado_leaves"
+    }
+}

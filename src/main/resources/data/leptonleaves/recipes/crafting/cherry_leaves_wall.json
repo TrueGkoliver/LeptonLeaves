@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "environmental:cherry_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:cherry_leaves_wall",
+    "count": 6
+  }
+}

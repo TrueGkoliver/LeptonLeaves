@@ -1,0 +1,7 @@
+
+{
+    "parent": "leptonleaves:block/template_wall_post",
+    "textures": {
+        "wall": "architects_palette:block/twisted_leaves"
+    }
+}

@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/outer_stairs",
+    "textures": {
+        "bottom": "quark:block/pink_blossom_leaves",
+        "top": "quark:block/pink_blossom_leaves",
+        "side": "quark:block/pink_blossom_leaves"
+    }
+}

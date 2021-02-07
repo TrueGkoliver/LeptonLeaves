@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:pink_blossom_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:pink_blossom_leaves_wall",
+    "count": 6
+  }
+}

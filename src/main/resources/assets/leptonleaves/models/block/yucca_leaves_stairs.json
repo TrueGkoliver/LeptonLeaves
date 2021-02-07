@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/stairs",
+    "textures": {
+        "bottom": "atmospheric:block/yucca_leaves",
+        "top": "atmospheric:block/yucca_leaves",
+        "side": "atmospheric:block/yucca_leaves"
+    }
+}

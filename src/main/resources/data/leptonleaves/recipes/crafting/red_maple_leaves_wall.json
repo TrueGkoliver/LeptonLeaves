@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "autumnity:red_maple_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:red_maple_leaves_wall",
+    "count": 6
+  }
+}

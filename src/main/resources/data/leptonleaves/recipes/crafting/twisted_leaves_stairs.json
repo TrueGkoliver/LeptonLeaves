@@ -1,0 +1,19 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "architects_palette:twisted_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:twisted_leaves_stairs",
+    "count": 4
+  }
+}

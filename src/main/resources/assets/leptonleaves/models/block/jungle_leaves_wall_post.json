@@ -1,0 +1,7 @@
+
+{
+    "parent": "leptonleaves:block/template_wall_post",
+    "textures": {
+        "wall": "minecraft:block/jungle_leaves"
+    }
+}

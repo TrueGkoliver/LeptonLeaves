@@ -1,0 +1,7 @@
+
+{
+    "parent": "leptonleaves:block/template_wall_side",
+    "textures": {
+        "wall": "quark:block/pink_blossom_leaves"
+    }
+}

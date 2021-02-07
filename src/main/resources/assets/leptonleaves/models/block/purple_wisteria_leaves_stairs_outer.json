@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/outer_stairs",
+    "textures": {
+        "bottom": "environmental:block/purple_wisteria_leaves",
+        "top": "environmental:block/purple_wisteria_leaves",
+        "side": "environmental:block/purple_wisteria_leaves"
+    }
+}

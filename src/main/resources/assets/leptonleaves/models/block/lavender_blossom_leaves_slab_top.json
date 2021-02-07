@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "quark:block/lavender_blossom_leaves",
+    "top": "quark:block/lavender_blossom_leaves",
+    "side": "quark:block/lavender_blossom_leaves"
+  }
+}
+
+

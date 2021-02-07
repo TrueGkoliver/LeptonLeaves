@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "environmental:block/blue_wisteria_leaves",
+    "top": "environmental:block/blue_wisteria_leaves",
+    "side": "environmental:block/blue_wisteria_leaves"
+  }
+}
+
+

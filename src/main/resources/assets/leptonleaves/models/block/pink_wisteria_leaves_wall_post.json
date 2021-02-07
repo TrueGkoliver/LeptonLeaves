@@ -1,0 +1,7 @@
+
+{
+    "parent": "leptonleaves:block/template_wall_post",
+    "textures": {
+        "wall": "environmental:block/pink_wisteria_leaves"
+    }
+}

@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "environmental:block/pink_wisteria_leaves",
+    "top": "environmental:block/pink_wisteria_leaves",
+    "side": "environmental:block/pink_wisteria_leaves"
+  }
+}
+
+

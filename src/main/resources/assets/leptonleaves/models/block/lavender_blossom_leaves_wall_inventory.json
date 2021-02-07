@@ -1,0 +1,7 @@
+
+{
+    "parent": "leptonleaves:block/wall_inventory",
+    "textures": {
+        "wall": "quark:block/lavender_blossom_leaves"
+    }
+}

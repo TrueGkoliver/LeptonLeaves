@@ -1,0 +1,10 @@
+
+{
+  "parent": "leptonleaves:block/slab",
+  "textures": {
+    "bottom": "minecraft:block/oak_leaves",
+    "top": "minecraft:block/oak_leaves",
+    "side": "minecraft:block/oak_leaves"
+  }
+}
+

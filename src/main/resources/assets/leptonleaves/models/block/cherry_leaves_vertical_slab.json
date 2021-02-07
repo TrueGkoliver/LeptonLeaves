@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/vertical_slab",
+    "textures": {
+        "bottom": "environmental:block/cherry_leaves",
+        "top": "environmental:block/cherry_leaves",
+        "side": "environmental:block/cherry_leaves"
+    }
+}

@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "environmental:white_wisteria_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:white_wisteria_leaves_wall",
+    "count": 6
+  }
+}

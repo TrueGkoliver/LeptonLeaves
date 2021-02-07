@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/vertical_slab",
+    "textures": {
+        "bottom": "architects_palette:block/twisted_leaves",
+        "top": "architects_palette:block/twisted_leaves",
+        "side": "architects_palette:block/twisted_leaves"
+    }
+}

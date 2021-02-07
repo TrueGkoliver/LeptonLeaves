@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atmospheric:flowering_morado_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:flowering_morado_leaves_slab",
+    "count": 6
+  }
+}

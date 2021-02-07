@@ -1,0 +1,19 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "autumnity:orange_maple_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_maple_leaves_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+
+{
+  "parent": "leptonleaves:block/slab",
+  "textures": {
+    "bottom": "atmospheric:block/morado_leaves",
+    "top": "atmospheric:block/morado_leaves",
+    "side": "atmospheric:block/morado_leaves"
+  }
+}
+

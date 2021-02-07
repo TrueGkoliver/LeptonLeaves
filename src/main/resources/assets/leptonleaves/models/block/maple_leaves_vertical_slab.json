@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/vertical_slab",
+    "textures": {
+        "bottom": "autumnity:block/maple_leaves",
+        "top": "autumnity:block/maple_leaves",
+        "side": "autumnity:block/maple_leaves"
+    }
+}

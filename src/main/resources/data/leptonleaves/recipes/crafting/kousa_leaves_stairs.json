@@ -1,0 +1,19 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atmospheric:kousa_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:kousa_leaves_stairs",
+    "count": 4
+  }
+}

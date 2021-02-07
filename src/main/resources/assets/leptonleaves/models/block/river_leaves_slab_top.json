@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "upgrade_aquatic:block/river_leaves",
+    "top": "upgrade_aquatic:block/river_leaves",
+    "side": "upgrade_aquatic:block/river_leaves"
+  }
+}
+
+

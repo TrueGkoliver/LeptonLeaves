@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atmospheric:rosewood_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:rosewood_leaves_wall",
+    "count": 6
+  }
+}

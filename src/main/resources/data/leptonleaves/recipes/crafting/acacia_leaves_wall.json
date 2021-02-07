@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:acacia_leaves_wall",
+    "count": 6
+  }
+}

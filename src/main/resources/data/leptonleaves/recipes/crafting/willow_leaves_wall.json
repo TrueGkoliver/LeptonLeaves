@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "environmental:willow_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:willow_leaves_wall",
+    "count": 6
+  }
+}

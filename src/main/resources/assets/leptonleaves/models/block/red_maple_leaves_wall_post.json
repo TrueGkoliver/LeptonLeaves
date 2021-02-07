@@ -1,0 +1,7 @@
+
+{
+    "parent": "leptonleaves:block/template_wall_post",
+    "textures": {
+        "wall": "autumnity:block/red_maple_leaves"
+    }
+}

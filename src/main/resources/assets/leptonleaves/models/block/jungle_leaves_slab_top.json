@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "minecraft:block/jungle_leaves",
+    "top": "minecraft:block/jungle_leaves",
+    "side": "minecraft:block/jungle_leaves"
+  }
+}
+
+

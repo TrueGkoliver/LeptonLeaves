@@ -1,0 +1,7 @@
+
+{
+  "parent": "leptonleaves:block/template_wall_side_tall",
+  "textures": {
+    "wall": "quark:block/orange_blossom_leaves"
+  }
+}

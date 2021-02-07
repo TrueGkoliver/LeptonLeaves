@@ -1,0 +1,11 @@
+
+{
+  "parent": "leptonleaves:block/slab_top",
+  "textures": {
+    "bottom": "environmental:block/willow_leaves",
+    "top": "environmental:block/willow_leaves",
+    "side": "environmental:block/willow_leaves"
+  }
+}
+
+

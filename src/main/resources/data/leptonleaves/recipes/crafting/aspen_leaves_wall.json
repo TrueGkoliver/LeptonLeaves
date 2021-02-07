@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atmospheric:aspen_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:aspen_leaves_wall",
+    "count": 6
+  }
+}

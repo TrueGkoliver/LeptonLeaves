@@ -1,0 +1,9 @@
+
+{
+    "parent": "leptonleaves:block/stairs",
+    "textures": {
+        "bottom": "atmospheric:block/grimwood_leaves",
+        "top": "atmospheric:block/grimwood_leaves",
+        "side": "atmospheric:block/grimwood_leaves"
+    }
+}
