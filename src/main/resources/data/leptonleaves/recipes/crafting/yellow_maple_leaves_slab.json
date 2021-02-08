@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "autumnity:yellow_maple_leaves"
+    }
+  },
+  "result": {
+    "item": "leptonleaves:yellow_maple_leaves_slab",
+    "count": 6
+  }
+}

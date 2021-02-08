@@ -101,6 +101,7 @@ dependencies {
     // compile "some.group:artifact:version"
     implementation fg.deobf("curse.maven:abnormals-core-382216:3157757")
     implementation fg.deobf("curse.maven:quark-243121:3190442")
+    implementation fg.deobf("curse.maven:autumnity-365045:3158874")
     implementation fg.deobf("curse.maven:autoreglib-250363:3128555")
     implementation fg.deobf("curse.maven:jei-238222:3136600")
     implementation fg.deobf("curse.maven:lepton-407384:3168498")

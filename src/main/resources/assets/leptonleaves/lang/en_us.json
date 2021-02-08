@@ -118,5 +118,9 @@
   "block.leptonleaves.twisted_leaves_stairs": "Twisted Leaf Stairs",
   "block.leptonleaves.twisted_leaves_slab": "Twisted Leaf Slab",
   "block.leptonleaves.twisted_leaves_vertical_slab": "Twisted Leaf Vertical Slab",
-  "block.leptonleaves.twisted_leaves_wall": "Twisted Leaf Wall"
+  "block.leptonleaves.twisted_leaves_wall": "Twisted Leaf Wall",
+  "block.leptonleaves.yellow_maple_leaves_stairs": "Yellow Maple Leaf Stairs",
+  "block.leptonleaves.yellow_maple_leaves_slab": "Yellow Maple Leaf Slab",
+  "block.leptonleaves.yellow_maple_leaves_vertical_slab": "Yellow Maple Leaf Vertical Slab",
+  "block.leptonleaves.yellow_maple_leaves_wall": "Yellow Maple Leaf Wall"
 }

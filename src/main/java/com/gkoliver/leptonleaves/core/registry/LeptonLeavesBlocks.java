@@ -35,7 +35,7 @@ public class LeptonLeavesBlocks {
     public static ArrayList<Pair<RegistryObject<Block>, IBlockColor>> BLOCK_COLORS = Lists.newArrayList();
     public static final AbstractBlock.Properties PROP = AbstractBlock.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F).sound(SoundType.PLANT).notSolid();
 
-    public static ArrayList<RegistryObject<Block>> produceModCompat(String name, String modId) {
+    public static ArrayList<RegistryObject<Block>> produceModCompat(String name, String modId, boolean addColors, int nonsense) {
         RegistryObject<Block> slab = HELPER.createCompatBlock(modId,name+"_slab", () -> new LeafSlabBlock(PROP), ItemGroup.BUILDING_BLOCKS);
         RegistryObject<Block> stairs = HELPER.createCompatBlock(modId,name + "_stairs", () -> new LeafStairsBlock(Blocks.OAK_WOOD.getDefaultState(), PROP), ItemGroup.BUILDING_BLOCKS);
         RegistryObject<Block> wall = HELPER.createCompatBlock(modId,name + "_wall", () -> new LeafWallBlock(PROP), ItemGroup.DECORATIONS);
@@ -46,6 +46,17 @@ public class LeptonLeavesBlocks {
         tbr.add(wall);
         tbr.add(vertical_slab);
         TRANSPARENT_BLOCKS.addAll(tbr);
+        if (addColors) {
+            if (nonsense != 0) {
+                tbr.forEach((x) -> {
+                    BLOCK_COLORS.add(Pair.of(x, (b,y,z,w)->nonsense));
+                });
+
+            }
+            else {tbr.forEach((x) -> {
+                BLOCK_COLORS.add(Pair.of(x, BASE_FUNC));
+            });}
+        }
         return tbr;
     }
 
@@ -98,37 +109,37 @@ public class LeptonLeavesBlocks {
     public static ArrayList<RegistryObject<Block>> DARK_OAK;
 
     //Modded momente
-    public static ArrayList<RegistryObject<Block>> RED_MAPLE = produceModCompat("red_maple_leaves", "autumnity");
-    public static ArrayList<RegistryObject<Block>> ORANGE_MAPLE = produceModCompat("orange_maple_leaves", "autumnity");
-    public static ArrayList<RegistryObject<Block>> YELLOW_MAPLE = produceModCompat("yellow_maple_leaves", "autumnity");
-    public static ArrayList<RegistryObject<Block>> GREEN_MAPLE = produceModCompat("maple_leaves", "autumnity");
+    public static ArrayList<RegistryObject<Block>> RED_MAPLE = produceModCompat("red_maple_leaves", "autumnity", true, 12665871);
+    public static ArrayList<RegistryObject<Block>> ORANGE_MAPLE = produceModCompat("orange_maple_leaves", "autumnity", true, 16745768);
+    public static ArrayList<RegistryObject<Block>> YELLOW_MAPLE = produceModCompat("yellow_maple_leaves", "autumnity", true, 16766735);
+    public static ArrayList<RegistryObject<Block>> GREEN_MAPLE = produceModCompat("maple_leaves", "autumnity", true, 0);
 
-    public static ArrayList<RegistryObject<Block>> PINK_WISTERIA = produceModCompat("pink_wisteria_leaves", "environmental");
-    public static ArrayList<RegistryObject<Block>> BLUE_WISTERIA = produceModCompat("blue_wisteria_leaves", "environmental");
-    public static ArrayList<RegistryObject<Block>> PURPLE_WISTERIA = produceModCompat("purple_wisteria_leaves", "environmental");
-    public static ArrayList<RegistryObject<Block>> WHITE_WISTERIA = produceModCompat("white_wisteria_leaves", "environmental");
+    public static ArrayList<RegistryObject<Block>> PINK_WISTERIA = produceModCompat("pink_wisteria_leaves", "environmental", false, 0);
+    public static ArrayList<RegistryObject<Block>> BLUE_WISTERIA = produceModCompat("blue_wisteria_leaves", "environmental", false, 0);
+    public static ArrayList<RegistryObject<Block>> PURPLE_WISTERIA = produceModCompat("purple_wisteria_leaves", "environmental", false, 0);
+    public static ArrayList<RegistryObject<Block>> WHITE_WISTERIA = produceModCompat("white_wisteria_leaves", "environmental", false, 0);
 
-    public static ArrayList<RegistryObject<Block>> WILLOW = produceModCompat("willow_leaves", "environmental");
-    public static ArrayList<RegistryObject<Block>> CHERRY = produceModCompat("cherry_leaves", "environmental");
+    public static ArrayList<RegistryObject<Block>> WILLOW = produceModCompat("willow_leaves", "environmental", true, 0);
+    public static ArrayList<RegistryObject<Block>> CHERRY = produceModCompat("cherry_leaves", "environmental", false, 0);
 
-    public static ArrayList<RegistryObject<Block>> BLUE_BLOSSOM = produceModCompat("blue_blossom_leaves", "quark");
-    public static ArrayList<RegistryObject<Block>> LAVENDER_BLOSSOM = produceModCompat("lavender_blossom_leaves", "quark");
-    public static ArrayList<RegistryObject<Block>> ORANGE_BLOSSOM = produceModCompat("orange_blossom_leaves", "quark");
-    public static ArrayList<RegistryObject<Block>> PINK_BLOSSOM = produceModCompat("pink_blossom_leaves", "quark");
-    public static ArrayList<RegistryObject<Block>> YELLOW_BLOSSOM = produceModCompat("yellow_blossom_leaves", "quark");
-    public static ArrayList<RegistryObject<Block>> RED_BLOSSOM = produceModCompat("red_blossom_leaves", "quark");
+    public static ArrayList<RegistryObject<Block>> BLUE_BLOSSOM = produceModCompat("blue_blossom_leaves", "quark", false, 0);
+    public static ArrayList<RegistryObject<Block>> LAVENDER_BLOSSOM = produceModCompat("lavender_blossom_leaves", "quark", false, 0);
+    public static ArrayList<RegistryObject<Block>> ORANGE_BLOSSOM = produceModCompat("orange_blossom_leaves", "quark", false, 0);
+    public static ArrayList<RegistryObject<Block>> PINK_BLOSSOM = produceModCompat("pink_blossom_leaves", "quark", false, 0);
+    public static ArrayList<RegistryObject<Block>> YELLOW_BLOSSOM = produceModCompat("yellow_blossom_leaves", "quark", false, 0);
+    public static ArrayList<RegistryObject<Block>> RED_BLOSSOM = produceModCompat("red_blossom_leaves", "quark", false, 0);
 
-    public static ArrayList<RegistryObject<Block>> RIVER = produceModCompat("river_leaves", "upgrade_aquatic");
+    public static ArrayList<RegistryObject<Block>> RIVER = produceModCompat("river_leaves", "upgrade_aquatic", true, 0);
 
-    public static ArrayList<RegistryObject<Block>> MORADO = produceModCompat("morado_leaves", "atmospheric");
-    public static ArrayList<RegistryObject<Block>> ROSEWOOD = produceModCompat("rosewood_leaves", "atmospheric");
-    public static ArrayList<RegistryObject<Block>> FLOWERING_MORADO = produceModCompat("flowering_morado_leaves", "atmospheric");
-    public static ArrayList<RegistryObject<Block>> YUCCA = produceModCompat("yucca_leaves", "atmospheric");
-    public static ArrayList<RegistryObject<Block>> KOUSA = produceModCompat("kousa_leaves", "atmospheric");
-    public static ArrayList<RegistryObject<Block>> ASPEN = produceModCompat("aspen_leaves", "atmospheric");
-    public static ArrayList<RegistryObject<Block>> GRIMWOOD = produceModCompat("grimwood_leaves", "atmospheric");
+    public static ArrayList<RegistryObject<Block>> MORADO = produceModCompat("morado_leaves", "atmospheric", true, 0);
+    public static ArrayList<RegistryObject<Block>> ROSEWOOD = produceModCompat("rosewood_leaves", "atmospheric", true, 0);
+    public static ArrayList<RegistryObject<Block>> FLOWERING_MORADO = produceModCompat("flowering_morado_leaves", "atmospheric", true, 0);
+    public static ArrayList<RegistryObject<Block>> YUCCA = produceModCompat("yucca_leaves", "atmospheric", false, 0);
+    public static ArrayList<RegistryObject<Block>> KOUSA = produceModCompat("kousa_leaves", "atmospheric", false, 0);
+    public static ArrayList<RegistryObject<Block>> ASPEN = produceModCompat("aspen_leaves", "atmospheric", false, 0);
+    public static ArrayList<RegistryObject<Block>> GRIMWOOD = produceModCompat("grimwood_leaves", "atmospheric", false, 0);
 
-    public static ArrayList<RegistryObject<Block>> TWISTED = produceModCompat("twisted_leaves", "architects_palette");
+    public static ArrayList<RegistryObject<Block>> TWISTED = produceModCompat("twisted_leaves", "architects_palette", false, 0);
 
     public static void doClient() {
         for (RegistryObject<Block> blockR : TRANSPARENT_BLOCKS) {
